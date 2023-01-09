@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		128B44C6296C53C4003469DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128B44C5296C53C4003469DB /* AppDelegate.swift */; };
+		128B44C8296C53C4003469DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128B44C7296C53C4003469DB /* SceneDelegate.swift */; };
+		128B44CA296C53C4003469DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128B44C9296C53C4003469DB /* ViewController.swift */; };
+		128B44CD296C53C4003469DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128B44CB296C53C4003469DB /* Main.storyboard */; };
+		128B44CF296C53C5003469DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128B44CE296C53C5003469DB /* Assets.xcassets */; };
+		128B44D2296C53C5003469DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128B44D0296C53C5003469DB /* LaunchScreen.storyboard */; };
+		128B44DD296C53C5003469DB /* MultitouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128B44DC296C53C5003469DB /* MultitouchTests.swift */; };
+		128B44E7296C53C5003469DB /* MultitouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128B44E6296C53C5003469DB /* MultitouchUITests.swift */; };
+		128B44E9296C53C5003469DB /* MultitouchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128B44E8296C53C5003469DB /* MultitouchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		128B44D9296C53C5003469DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 128B44BA296C53C4003469DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 128B44C1296C53C4003469DB;
+			remoteInfo = Multitouch;
+		};
+		128B44E3296C53C5003469DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 128B44BA296C53C4003469DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 128B44C1296C53C4003469DB;
+			remoteInfo = Multitouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		128B44C2296C53C4003469DB /* Multitouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multitouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		128B44C5296C53C4003469DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		128B44C7296C53C4003469DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		128B44C9296C53C4003469DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		128B44CC296C53C4003469DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		128B44CE296C53C5003469DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		128B44D1296C53C5003469DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		128B44D3296C53C5003469DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128B44D8296C53C5003469DB /* MultitouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultitouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		128B44DC296C53C5003469DB /* MultitouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultitouchTests.swift; sourceTree = "<group>"; };
+		128B44E2296C53C5003469DB /* MultitouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultitouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		128B44E6296C53C5003469DB /* MultitouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultitouchUITests.swift; sourceTree = "<group>"; };
+		128B44E8296C53C5003469DB /* MultitouchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultitouchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		128B44BF296C53C4003469DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128B44D5296C53C5003469DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128B44DF296C53C5003469DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		128B44B9296C53C4003469DB = {
+			isa = PBXGroup;
+			children = (
+				128B44C4296C53C4003469DB /* Multitouch */,
+				128B44DB296C53C5003469DB /* MultitouchTests */,
+				128B44E5296C53C5003469DB /* MultitouchUITests */,
+				128B44C3296C53C4003469DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		128B44C3296C53C4003469DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				128B44C2296C53C4003469DB /* Multitouch.app */,
+				128B44D8296C53C5003469DB /* MultitouchTests.xctest */,
+				128B44E2296C53C5003469DB /* MultitouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		128B44C4296C53C4003469DB /* Multitouch */ = {
+			isa = PBXGroup;
+			children = (
+				128B44C5296C53C4003469DB /* AppDelegate.swift */,
+				128B44C7296C53C4003469DB /* SceneDelegate.swift */,
+				128B44C9296C53C4003469DB /* ViewController.swift */,
+				128B44CB296C53C4003469DB /* Main.storyboard */,
+				128B44CE296C53C5003469DB /* Assets.xcassets */,
+				128B44D0296C53C5003469DB /* LaunchScreen.storyboard */,
+				128B44D3296C53C5003469DB /* Info.plist */,
+			);
+			path = Multitouch;
+			sourceTree = "<group>";
+		};
+		128B44DB296C53C5003469DB /* MultitouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				128B44DC296C53C5003469DB /* MultitouchTests.swift */,
+			);
+			path = MultitouchTests;
+			sourceTree = "<group>";
+		};
+		128B44E5296C53C5003469DB /* MultitouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				128B44E6296C53C5003469DB /* MultitouchUITests.swift */,
+				128B44E8296C53C5003469DB /* MultitouchUITestsLaunchTests.swift */,
+			);
+			path = MultitouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		128B44C1296C53C4003469DB /* Multitouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128B44EC296C53C5003469DB /* Build configuration list for PBXNativeTarget "Multitouch" */;
+			buildPhases = (
+				128B44BE296C53C4003469DB /* Sources */,
+				128B44BF296C53C4003469DB /* Frameworks */,
+				128B44C0296C53C4003469DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Multitouch;
+			productName = Multitouch;
+			productReference = 128B44C2296C53C4003469DB /* Multitouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		128B44D7296C53C5003469DB /* MultitouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128B44EF296C53C5003469DB /* Build configuration list for PBXNativeTarget "MultitouchTests" */;
+			buildPhases = (
+				128B44D4296C53C5003469DB /* Sources */,
+				128B44D5296C53C5003469DB /* Frameworks */,
+				128B44D6296C53C5003469DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				128B44DA296C53C5003469DB /* PBXTargetDependency */,
+			);
+			name = MultitouchTests;
+			productName = MultitouchTests;
+			productReference = 128B44D8296C53C5003469DB /* MultitouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		128B44E1296C53C5003469DB /* MultitouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128B44F2296C53C5003469DB /* Build configuration list for PBXNativeTarget "MultitouchUITests" */;
+			buildPhases = (
+				128B44DE296C53C5003469DB /* Sources */,
+				128B44DF296C53C5003469DB /* Frameworks */,
+				128B44E0296C53C5003469DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				128B44E4296C53C5003469DB /* PBXTargetDependency */,
+			);
+			name = MultitouchUITests;
+			productName = MultitouchUITests;
+			productReference = 128B44E2296C53C5003469DB /* MultitouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		128B44BA296C53C4003469DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					128B44C1296C53C4003469DB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					128B44D7296C53C5003469DB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 128B44C1296C53C4003469DB;
+					};
+					128B44E1296C53C5003469DB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 128B44C1296C53C4003469DB;
+					};
+				};
+			};
+			buildConfigurationList = 128B44BD296C53C4003469DB /* Build configuration list for PBXProject "Multitouch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 128B44B9296C53C4003469DB;
+			productRefGroup = 128B44C3296C53C4003469DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				128B44C1296C53C4003469DB /* Multitouch */,
+				128B44D7296C53C5003469DB /* MultitouchTests */,
+				128B44E1296C53C5003469DB /* MultitouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		128B44C0296C53C4003469DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128B44D2296C53C5003469DB /* LaunchScreen.storyboard in Resources */,
+				128B44CF296C53C5003469DB /* Assets.xcassets in Resources */,
+				128B44CD296C53C4003469DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128B44D6296C53C5003469DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128B44E0296C53C5003469DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		128B44BE296C53C4003469DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128B44CA296C53C4003469DB /* ViewController.swift in Sources */,
+				128B44C6296C53C4003469DB /* AppDelegate.swift in Sources */,
+				128B44C8296C53C4003469DB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128B44D4296C53C5003469DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128B44DD296C53C5003469DB /* MultitouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128B44DE296C53C5003469DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128B44E9296C53C5003469DB /* MultitouchUITestsLaunchTests.swift in Sources */,
+				128B44E7296C53C5003469DB /* MultitouchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		128B44DA296C53C5003469DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 128B44C1296C53C4003469DB /* Multitouch */;
+			targetProxy = 128B44D9296C53C5003469DB /* PBXContainerItemProxy */;
+		};
+		128B44E4296C53C5003469DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 128B44C1296C53C4003469DB /* Multitouch */;
+			targetProxy = 128B44E3296C53C5003469DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		128B44CB296C53C4003469DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				128B44CC296C53C4003469DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		128B44D0296C53C5003469DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				128B44D1296C53C5003469DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		128B44EA296C53C5003469DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		128B44EB296C53C5003469DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		128B44ED296C53C5003469DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Multitouch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tmp.Multitouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		128B44EE296C53C5003469DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Multitouch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tmp.Multitouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		128B44F0296C53C5003469DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tmp.MultitouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multitouch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Multitouch";
+			};
+			name = Debug;
+		};
+		128B44F1296C53C5003469DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tmp.MultitouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multitouch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Multitouch";
+			};
+			name = Release;
+		};
+		128B44F3296C53C5003469DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tmp.MultitouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Multitouch;
+			};
+			name = Debug;
+		};
+		128B44F4296C53C5003469DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tmp.MultitouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Multitouch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		128B44BD296C53C4003469DB /* Build configuration list for PBXProject "Multitouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128B44EA296C53C5003469DB /* Debug */,
+				128B44EB296C53C5003469DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128B44EC296C53C5003469DB /* Build configuration list for PBXNativeTarget "Multitouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128B44ED296C53C5003469DB /* Debug */,
+				128B44EE296C53C5003469DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128B44EF296C53C5003469DB /* Build configuration list for PBXNativeTarget "MultitouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128B44F0296C53C5003469DB /* Debug */,
+				128B44F1296C53C5003469DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128B44F2296C53C5003469DB /* Build configuration list for PBXNativeTarget "MultitouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128B44F3296C53C5003469DB /* Debug */,
+				128B44F4296C53C5003469DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 128B44BA296C53C4003469DB /* Project object */;
+}
